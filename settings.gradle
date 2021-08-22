@@ -1,0 +1,3 @@
+rootProject.name = "rhino_vs_liquidCore"
+include ':app'
+include ':liquidCore'
