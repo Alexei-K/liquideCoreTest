@@ -3,12 +3,10 @@ package com.example.rhino_vs_liquidcore
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.ViewGroup
+import android.util.Log
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.rhino_vs_liquidcore.databinding.ActivityMainBinding
 import org.liquidplayer.javascript.JSContext
-import org.liquidplayer.javascript.JSFunction
-import org.liquidplayer.javascript.JSValue
 import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
@@ -97,5 +95,6 @@ class MainActivity : AppCompatActivity() {
             val size = config.size.toInt()
             binding.coolRedButton.layoutParams = ConstraintLayout.LayoutParams(size, size)
         }
+        Log.d("AlexLog", "${RhinoExample().testFun(90)}")
     }
 }

@@ -1,9 +1,7 @@
 package com.example.rhino_vs_liquidcore
 
-import com.google.gson.Gson
 import org.json.JSONObject
 import org.liquidplayer.javascript.JSContext
-import org.liquidplayer.javascript.JSFunction
 import org.liquidplayer.javascript.JSValue
 
 class BallConfig(val jsContext: JSContext) {

@@ -44,6 +44,9 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
     implementation files('libs/liquidcore-V8-0.7.10.aar')
 
+    implementation files('libs/rhino-1.7.13.jar')
+
+
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
     testImplementation 'junit:junit:4.+'
